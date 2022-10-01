@@ -1,0 +1,64 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "name": "dashboard",
+      "type": "link",
+      "icon": "home"
+    },
+    {
+      "route": "user-management",
+      "name": "userManagement",
+      "type": "link",
+      "icon": "library_books"
+    },
+    {
+      "route": "properties-approval",
+      "name": "propertiesApproval",
+      "type": "link",
+      "icon": "event_available"
+    },
+    {
+      "route": "user-management",
+      "name": "bookingManagement",
+      "type": "link",
+      "icon": "calendar_today"
+    },
+    {
+      "route": "user-management",
+      "name": "paymentsAndTransactions",
+      "type": "link",
+      "icon": "receipt"
+    },
+    {
+      "route": "user-management",
+      "name": "pushManagement",
+      "type": "link",
+      "icon": "notifications_active"
+    },
+    {
+      "route": "user-management",
+      "name": "queryManagement",
+      "type": "link",
+      "icon": "access_time"
+    },
+    {
+      "route": "user-management",
+      "name": "ratingsAndReview",
+      "type": "link",
+      "icon": "account_circle"
+    },
+    {
+      "route": "user-management",
+      "name": "couponsManagement",
+      "type": "link",
+      "icon": "card_giftcard"
+    },
+    {
+      "route": "user-management",
+      "name": "changePassword",
+      "type": "link",
+      "icon": "lock"
+    }
+  ]
+}

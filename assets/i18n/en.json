@@ -6,14 +6,17 @@
     "cancel": "Cancel",
     "confirm": "Confirm",
     "warning": "Warning",
-    "send": "Send"
+    "send": "Send",
+    "uploadImg": "Upload Image",
+    "uploading": "Uploading ...."
   },
   "menu": {
     "dashboard": "Dashboard",
     "adminManagement": "Admin Management",
     "userManagement": "User Management",
     "propertiesApproval": "Properties Approval",
-    "notifications":"Notifications",
+    "staticPages": "Static Pages",
+    "notifications": "Notifications",
     "bookingManagement": "Booking Management",
     "paymentsAndTransactions": "Payment&Transaction",
     "pushManagement": "Push Management",
@@ -22,8 +25,13 @@
     "couponsManagement": "Coupons Management",
     "changePassword": "Change Password",
     "onlineProperties": "Online Properties",
+    "headerSlider": "Header Slider",
     "profile": "Profile",
-    "profileSettings": "Profile Settings"
+    "profileSettings": "Profile Settings",
+    "footerManagement":"Footer Management",
+    "listSpace":"List Space",
+    "WebApplication": "Web Application",
+    "CitiesManagement": "Cities Management"
   },
   "propertiesManagement": {
     "propertyID": "ID",
@@ -43,7 +51,7 @@
     "noOfBathrooms": "Number Of Bathrooms",
     "propertyDescription": "Property Description",
     "country": "Country",
-    "city":"City",
+    "city": "City",
     "location": "Location",
     "zip_code": "Zip Code",
     "street": "Street",
@@ -73,7 +81,7 @@
     "noOfBedrooms": "Number Of Bedrooms",
     "noOfBathrooms": "Number Of Bathrooms",
     "country": "Country",
-    "city":"City",
+    "city": "City",
     "location": "Location",
     "zip_code": "Zip Code",
     "street": "Street",
@@ -87,18 +95,18 @@
     "rejectProperty": "Reject Property",
     "rejectionReasons": "Rejection Reasons",
     "enterReasons": "Please enter rejection reasons",
-    "travellerName":"Traveller Name",
+    "travellerName": "Traveller Name",
     "hostName": "Host Name",
-    "travellerEmail":"Traveller Email",
+    "travellerEmail": "Traveller Email",
     "hostEmail": "Host Email",
-    "travellerPhone":"Traveller Phone",
+    "travellerPhone": "Traveller Phone",
     "hostPhone": "Host Phone",
     "bookedFrom": "Booked From",
     "bookedTo": "Booked To"
   },
   "bookingManagement": {
     "propertyType": "Property Type",
-    "propertyStatus":"Property Status",
+    "propertyStatus": "Property Status",
     "bookingStatus": "Booking Status",
     "booked": "Booked",
     "paymentPending": "Payment Pending",
@@ -123,15 +131,15 @@
     "discountTotal": "Discount Total",
     "basePrice": "Base Price",
     "date": "Date",
-    "travellerName":"Traveller Name",
+    "travellerName": "Traveller Name",
     "hostName": "Host Name",
-    "travellerEmail":"Traveller Email",
+    "travellerEmail": "Traveller Email",
     "hostEmail": "Host Email",
-    "travellerPhone":"Traveller Phone",
+    "travellerPhone": "Traveller Phone",
     "hostPhone": "Host Phone"
   },
   "queryManagement": {
-    "queryStatus":"Query Status",
+    "queryStatus": "Query Status",
     "actions": "Actions",
     "search": "Search .....",
     "viewDetails": "View Details",
@@ -143,7 +151,7 @@
     "duration": "Duration Until Closed"
   },
   "userManagement": {
-    "userStatus":"User Status",
+    "userStatus": "User Status",
     "actions": "Actions",
     "search": "Search .....",
     "addUser": "Add User",
@@ -159,8 +167,8 @@
     "userPhone": "Phone",
     "password": "Password",
     "confirmUserPassword": "Confirm User Password",
-    "permissions":"Allowed Permissions",
-    "permissionsCount":"Permissions Count",
+    "permissions": "Allowed Permissions",
+    "permissionsCount": "Permissions Count",
     "block": "Block",
     "unblock": "Unblock",
     "edit": "Edit",
@@ -178,7 +186,7 @@
     "deleteSuccess": "User Deleted Successfully"
   },
   "adminManagement": {
-    "adminsStatus":"Admins Status",
+    "adminsStatus": "Admins Status",
     "actions": "Actions",
     "search": "Search .....",
     "addAdmin": "Add Admin",
@@ -195,8 +203,8 @@
     "userPhone": "Phone",
     "password": "Password",
     "confirmUserPassword": "Confirm User Password",
-    "permissions":"Allowed Permissions",
-    "permissionsCount":"Permissions Count",
+    "permissions": "Allowed Permissions",
+    "permissionsCount": "Permissions Count",
     "block": "Block",
     "unblock": "Unblock",
     "edit": "Edit",
@@ -214,7 +222,7 @@
     "deleteSuccess": "Admin Deleted Successfully"
   },
   "couponsManagement": {
-    "couponStatus":"Coupon Status",
+    "couponStatus": "Coupon Status",
     "actions": "Actions",
     "search": "Search .....",
     "addCoupon": "Add Coupon",
@@ -229,6 +237,7 @@
     "startDate": "Start Date",
     "expiryDate": "Expiry Date",
     "activate": "Activate",
+    "unactivate": "unActivate",
     "deactivate": "Deactivate",
     "discountType": "Discount Type",
     "percentage": "Percentage",
@@ -242,9 +251,9 @@
     "deleteConfirmation": "Are you sure you want to delete this Coupon ?",
     "activateConfirmation": "Are you sure you want to activate this Coupon ?",
     "deactivateConfirmation": "Are you sure you want to deactivate this Coupon ?",
-    "activateSuccess": "User Activated Successfully",
-    "deactivateSuccess": "User Deactivated Successfully",
-    "deleteSuccess": "User Deleted Successfully"
+    "activateSuccess": "Coupon Activated Successfully",
+    "deactivateSuccess": "Coupon Deactivated Successfully",
+    "deleteSuccess": "Coupon Deleted Successfully"
   },
   "paymentManagement": {
     "propertyType": "Property Type",
@@ -252,7 +261,7 @@
     "search": "Search .....",
     "viewDetails": "View Details",
     "id": "ID",
-    "travellerName":"Traveller Name",
+    "travellerName": "Traveller Name",
     "hostName": "Host Name",
     "propertyName": "Property Name",
     "bookedFrom": "Booked From",
@@ -260,14 +269,14 @@
     "transactionType": "Transaction Type",
     "date": "Date",
     "status": "Status",
-    "travellerEmail":"Traveller Email",
+    "travellerEmail": "Traveller Email",
     "hostEmail": "Host Email",
-    "travellerPhone":"Traveller Phone",
+    "travellerPhone": "Traveller Phone",
     "hostPhone": "Host Phone",
-    "country":"Country",
-    "city":"City",
-    "address":"Address",
-    "priceTotal":"Price Total"
+    "country": "Country",
+    "city": "City",
+    "address": "Address",
+    "priceTotal": "Price Total"
   },
   "pushManagement": {
     "postAnnouncement": "Post an Announcement",
@@ -276,7 +285,7 @@
     "host": "Host",
     "both": "Both",
     "announcementBody": "Announcement Body : ",
-    "send":"Send",
+    "send": "Send",
     "targetRequired": "Target is required",
     "bodyRequired": "Body is required",
     "sentSuccess": "Announcement sent successfully",
@@ -286,8 +295,8 @@
     "email": "Email",
     "notification": "Notification"
   },
-  "ratingsAndReviews" :{
-    "ratingsAndReviews" : "Ratings and Reviews"
+  "ratingsAndReviews": {
+    "ratingsAndReviews": "Ratings and Reviews"
   },
   "validations": {
     "required": "This field is required",
@@ -299,7 +308,7 @@
     "inconsistent": "Inconsistent with {{value}}",
     "invalid_email": "Invalid email",
     "misMatch": "Password is misMatch",
-    "Email" : "Email is Not Valid"
+    "Email": "Email is Not Valid"
   },
   "user": {
     "profile": "Profile",
@@ -308,6 +317,12 @@
     "edit": "Edited in successfully",
     "updateSuccess": "Profile updated successfully"
   },
+  "listSpace":{
+    "editListSpace":"Edit List Space",
+    "imgUrl": "Image Url",
+    "text":"Text"
+  },
+
   "login": {
     "title": "Welcome Back",
     "email": "Email",
@@ -340,7 +355,79 @@
     "range_page_label_1": "no record",
     "range_page_label_2": "{{startIndex}} - {{endIndex}} of {{length}}"
   },
+  "staticPages": {
+    "staticPages": "Static Pages",
+    "id": "ID",
+    "edit": "Edit",
+    "contentAr": "Content Arabic",
+    "contentEn": "Content English",
+    "actions": "Actions",
+    "titleEn": "Title EN" ,
+    "titleAr": "Title AR",
+    "updateSuccess": "Page Updated Successfully",
+    "editPage": "Edit Static Page",
+    "save": "Save",
+    "cancel": "Cancel"
+
+  },
   "notifications": {
     "notifications": "Notifications"
+  },
+  "headerSlider": {
+    "id": "ID",
+    "actions": "Actions",
+    "addSuccess": "Header Slider Added Successfully",
+    "updateSuccess": "Header Slider Updated Successfully",
+    "deleteConfirmation": "Are you sure you want to delete this Header Slider ?",
+    "activateSuccess": "Header Slider Activated Successfully",
+    "deactivateSuccess": "Header Slider Deactivated Successfully",
+    "deleteSuccess": "Header Slider Deleted Successfully",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "addHeaderSlider": "Add Header Slider",
+    "editHeaderSlider": "Edit Header Slider",
+    "save": "Save",
+    "cancel": "Cancel",
+    "nameEn": "Name En",
+    "nameAr": "Name Ar",
+    "imageUrl": "Image Url"
+  },
+  "footerManagement":{
+    "editFooter":"Edit Footer",
+    "socialMedia":"Social Media Links",
+    "faceBook":"FaceBook",
+    "twitter":"Twitter",
+    "youtube":"Youtube",
+    "linkedin":"Linkedin",
+    "descraption":"Descraption"
+  },
+  "citiesManagement": {
+    "actions": "Actions",
+    "search": "Search .....",
+    "addCity": "Add City",
+    "editCity": "Edit City",
+    "id": "ID",
+    "imageUrl": "Image Url",
+    "nameEn": "Name En",
+    "nameAr": "Name Ar",
+    "status": "Status",
+    "active": "Active",
+    "notActive": "Not Active",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "save": "Save",
+    "cancel": "Cancel",
+    "addSuccess": "City Added Successfully",
+    "updateSuccess": "City Updated Successfully",
+    "deleteConfirmation": "Are you sure you want to delete this City ?",
+    "activateConfirmation": "Are you sure you want to activate this City ?",
+    "deactivateConfirmation": "Are you sure you want to deactivate this City ?",
+    "activateSuccess": "City Activated Successfully",
+    "deactivateSuccess": "City Deactivated Successfully",
+    "deleteSuccess": "City Deleted Successfully"
   }
 }

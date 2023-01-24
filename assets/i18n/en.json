@@ -49,6 +49,7 @@
     "totalBookings": "Total Bookings"
   },
   "propertiesManagement": {
+    "Availability":"Availability",
     "AboutProperty": "About Property",
     "CreateListing": "Create Listing",
     "QuestionNotice": "Question notice",
@@ -280,7 +281,15 @@
     "travellerPhone": "Traveller Phone",
     "hostPhone": "Host Phone",
     "hostSearch":"Search Host",
-    "propertySearch":"Search Property"
+    "propertySearch":"Search Property",
+    "WeekendOffer":"Weekend Offer",
+    "WeeklyDiscount":"Weekly Discount",
+    "PriceDetails":"Price Details",
+    "Night":"Night",
+    "SAR":"SAR",
+    "ServiceFees":"Service Fees",
+    "Vat":"Vat",
+    "Insurance":"Insurance"
   },
   "queryManagement": {
     "queryStatus": "Query Status",
@@ -295,7 +304,19 @@
     "duration": "Duration Until Closed"
   },
   "userManagement": {
+    "BookingsAsTraveller": "Bookings As Traveller",
+    "BookingsAsHost": "Bookings As Host",
+    "propertyMass":"This User Has no Properties",
+    "BookingMass":"This Host Has no Bookings",
+    "propertyUser":"User properties",
+    "BookingHost":"Host Bookings ",
     "userStatus": "User Status",
+    "PersonalInfo":"Personal Info",
+    "DateBirth":"Date of Birth",
+    "UserDetails":"User Details",
+    "Phone": "Phone Number",
+    "gender":"Gender",
+    "countryCode":"Country Code",
     "actions": "Actions",
     "search": "Search .....",
     "addUser": "Add User",
@@ -454,7 +475,8 @@
     "inconsistent": "Inconsistent with {{value}}",
     "invalid_email": "Invalid email",
     "misMatch": "Password is misMatch",
-    "Email": "Email is Not Valid"
+    "Email": "Email is Not Valid",
+    "URL":"URL is Not Valid"
   },
   "user": {
     "profile": "Profile",

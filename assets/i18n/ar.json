@@ -49,6 +49,7 @@
     "totalBookings": "إجمالى الحجوزات"
   },
  "propertiesManagement": {
+    "Availability":"التوفر",
     "AboutProperty": "حول العقار",
     "CreateListing": "انشاء وحدة",
     "QuestionNotice": "سؤال أشعار",
@@ -280,7 +281,16 @@
     "travellerPhone": "هاتف المسافر",
     "hostPhone": "الهاتف المضيف",
     "hostSearch":"البحث عن مضيف",
-    "propertySearch":"البحث عن عقار"
+    "propertySearch":"البحث عن عقار",
+    "WeekendOffer":"عرض عطلة نهاية الأسبوع",
+    "WeeklyDiscount":"الخصم الأسبوعي",
+    "PriceDetails":"تفاصيل السعر",
+    "Night":"ليل",
+    "SAR":"ريال سعودي",
+    "ServiceFees":"رسوم الخدمة",
+    "Vat":"ضريبة القيمة المضافة",
+    "Insurance":"تأمين"
+
   },
   "queryManagement": {
     "queryStatus": "وضع الاستعلام",
@@ -295,6 +305,18 @@
     "duration": "المدة حتى الإغلاق"
   },
   "userManagement": {
+    "BookingsAsTraveller": "الحجوزات كـمسافر",
+    "BookingsAsHost": "الحجوزات كـمضيف",
+    "UserDetails": "معلومات المستخدم",
+    "PersonalInfo": "البيانات الشخصية",
+    "DateBirth": "تاريخ الميلاد",
+    "Phone": "رقم الهاتف",
+    "gender": "الجنس",
+    "countryCode": "الرقم الدولي",
+    "propertyMass":"هذا المستخدم ليس لديه وحدات",
+    "BookingMass":"هذا المستخدم ليس لديه حجوزات",
+    "propertyUser":"وحدات المستخدم",
+    "BookingHost":"حجوزات المضيف",
     "userStatus": "حالة المستخدم",
     "actions": "أجراءات",
     "search": "بحث .....",
@@ -454,7 +476,8 @@
     "inconsistent": "يتعارض مع {{value}}",
     "invalid_email": "بريد إلكتروني خاطئ",
     "misMatch": "كلمة المرور غير متطابقة",
-    "Email": "البريد الإلكتروني غير صالح"
+    "Email": "البريد الإلكتروني غير صالح",
+    "URL":"الرابط غير صالح"
   },
   "user": {
     "profile": "الملف الشخصي",

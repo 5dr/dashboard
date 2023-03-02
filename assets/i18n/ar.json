@@ -217,6 +217,7 @@
     "back":"الرجوع"
   },
   "bookingManagement": {
+    "id": "معرف",
     "BookingDetails": "تفاصيل الحجز",
     "HostDetails": "تفاصيل المضيف",
     "NumberOfNights": "عدد الليالي",

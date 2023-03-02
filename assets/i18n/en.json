@@ -217,6 +217,7 @@
     "back":"Back"
   },
   "bookingManagement": {
+    "id": "ID",
     "BookingDetails": "Booking Details",
     "HostDetails": "Host Details",
     "NumberOfNights": "Number Of Nights",
